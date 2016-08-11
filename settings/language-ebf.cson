@@ -1,0 +1,5 @@
+'.source.ebf':
+  'editor':
+    'commentStart': '; '
+    'increaseIndentPattern': '^\\{\\(\\['
+    'decreaseIndentPattern': '^\\}\\)\\]'

@@ -1,0 +1,12 @@
+{
+  "name": "language-ebf",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EBF support for Atom",
+  "repository": "https://github.com/yoyoyonny/language-ebf",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {}
+}
