@@ -53,14 +53,6 @@ repository:
                         name: "punctuation.definition.string.end.ebf"
             }
             {
-                match: '(\\]|\\))((?<x>(?:\\[(?:[^\\[\\]]|[^\\(\\)]*\\g<x>)*\\]|\\((?:[^\\(\\)]|[^\\[\\]]*\\g<x>)*\\)))(?:\\g<x>)*)'
-                captures:
-                    1:
-                        name: 'keyword.control.ebf'
-                    2:
-                        name: 'comment.line.semicolon.ebf'
-            }
-            {
                 match: '\\(|\\)|\\[|\\]'
                 name: 'keyword.control.ebf'
             }
